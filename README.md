@@ -30,8 +30,9 @@ This repository provides a Python script for generating interactive genomic data
 4. Replace lines 57 to 61 with your preferred subset of configurations. Ensure that each line ends with a comma.
 5. Each line signifies a configuration and includes the following details:
     - Accession name
-    - Real SNPs or predicted SNPs
-    - Conversion specificity or combined conversions
+    - Observed SNPs or predicted SNPs.
+    - Conversion specificity or combined conversions. Each conversion-specific plot contains 6 plots for all conversions.
+    - Context-based SNP probability prediction plot is provided for two accessions, c24, and mutation bias. Within these plots, the SNP probability is determined through the ratio of SNPs to specific types of context within the given window, rather than being divided by the window's length.
 
 ## Running the Script
 
