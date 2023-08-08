@@ -46,3 +46,6 @@ This repository provides a Python script for generating interactive genomic data
 3. By clicking on the names displayed on the left side of the plot, you can toggle the corresponding plots on or off within the plotting area.
 
 Feel free to experiment with different configurations to effectively visualize your data.
+
+![Image Alt Text](reg_plot.png)
+
